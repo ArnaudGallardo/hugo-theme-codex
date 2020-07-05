@@ -94,7 +94,7 @@ blockquote {
   margin-top: $leading;
   margin-bottom: $leading;
   line-height: $leading;
-  color: $black;
+  color: $foreground;
 
   cite {
     &::before {
@@ -113,7 +113,7 @@ pre {
   padding: 16px;
   word-wrap: normal;
   overflow: auto;
-  background-color: #f6f8fa;
+  background-color: $elevation-4;
   border-radius: 3px;
 }
 
@@ -148,4 +148,13 @@ pre code {
 
 abbr[title] {
   text-decoration: underline double;
+}
+
+a {
+  color: $primary-100;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $primary;
 }

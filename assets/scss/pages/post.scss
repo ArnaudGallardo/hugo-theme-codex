@@ -127,12 +127,11 @@ $tocBreakpoint: 1024px;
   text-decoration: none;
   padding: 0.2em 0.4em;
   border-radius: 3px;
-  background: lighten($primary, 41%);
-  color: $primary;
+  color: $primary-200;
   font-size: 0.8rem;
 
   &:hover {
-    background: lighten($primary, 38%);
+    background: $elevation-1;
   }
 }
 
@@ -175,7 +174,7 @@ $tocBreakpoint: 1024px;
       margin-top: 0;
     }
     &:hover {
-      background-color: #f6f9fc;
+      background-color: $elevation-1;
     }
   }
 }
@@ -186,7 +185,7 @@ $tocBreakpoint: 1024px;
 }
 
 .pagination__title {
-  color: $black;
+  color: $foreground;
   font-weight: 700;
   margin-top: 0.25rem;
 }
@@ -194,7 +193,7 @@ $tocBreakpoint: 1024px;
 footer {
   text-align: center;
   padding: 0 1.5rem;
-  background: #ffffff;
+  background: $background;
 
   p {
     color: $grey;
@@ -230,12 +229,12 @@ table {
   border-spacing: 0;
 
   thead {
-    background: $lightGrey;
+    background: $elevation-4;
   }
 
   th,
   td {
     padding: 0.5em 1em;
-    border: 1px double $greyTableBorder;
+    border-bottom: 1px solid $elevation-8;
   }
 }

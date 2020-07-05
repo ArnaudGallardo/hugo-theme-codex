@@ -1,6 +1,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #24292e;
+  color: #ccc;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -16,14 +16,14 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata,
 .token.plain-text {
-  color: #6a737d;
+  color: #ccc;
 }
 
 .token.atrule,
 .token.attr-value,
 .token.keyword,
 .token.operator {
-  color: #d73a49;
+  color: #ea4a5a;
 }
 
 .token.property,
@@ -33,7 +33,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #22863a;
+  color: #7bcc72;
 }
 
 .token.selector,
@@ -42,12 +42,12 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #032f62;
+  color: #79b8ff;
 }
 
 .token.function,
 .token.class-name {
-  color: #6f42c1;
+  color: #b392f0;
 }
 
 /* language-specific */
@@ -57,37 +57,37 @@ pre[class*="language-"] {
 .language-jsx .token.tag .token.punctuation,
 .language-jsx .token.tag .token.script,
 .language-jsx .token.plain-text {
-  color: #24292e;
+  color: #ccc;
 }
 
 .language-jsx .token.tag .token.attr-name {
-  color: #6f42c1;
+  color: #b392f0;
 }
 
 .language-jsx .token.tag .token.class-name {
-  color: #005cc5;
+  color: #c8e1ff;
 }
 
 .language-jsx .token.tag .token.script-punctuation,
 .language-jsx .token.attr-value .token.punctuation:first-child {
-  color: #d73a49;
+  color: #ea4a5a;
 }
 
 .language-jsx .token.attr-value {
-  color: #032f62;
+  color: #79b8ff;
 }
 
 .language-jsx span[class="comment"] {
-  color: pink;
+  color: #959da5;
 }
 
 /* HTML */
 .language-html .token.tag .token.punctuation {
-  color: #24292e;
+  color: #ccc;
 }
 
 .language-html .token.tag .token.attr-name {
-  color: #6f42c1;
+  color: #b392f0;
 }
 
 .language-html .token.tag .token.attr-value,
@@ -95,14 +95,14 @@ pre[class*="language-"] {
   .token.tag
   .token.attr-value
   .token.punctuation:not(:first-child) {
-  color: #032f62;
+  color: #79b8ff;
 }
 
 /* CSS */
 .language-css .token.selector {
-  color: #6f42c1;
+  color: #b392f0;
 }
 
 .language-css .token.property {
-  color: #005cc5;
+  color: #c8e1ff;
 }

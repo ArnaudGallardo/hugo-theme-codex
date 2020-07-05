@@ -33,6 +33,12 @@
   color: $primary;
 }
 
+.terminal {
+  color: $primary;
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
 .handle {
   display: inline-block;
   margin-top: 0.275em;
@@ -56,4 +62,16 @@ main {
 .social-icons {
   justify-content: flex-start;
   padding-top: 2rem;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
 }
